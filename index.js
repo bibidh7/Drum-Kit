@@ -41,6 +41,11 @@ function makeSound(key){
         audio.play();
         break;
 
+        case "h":
+            var audio = new Audio("sounds/hi-hat.mp3");
+            audio.play();
+            break;
+
         case "j":
         var audio = new Audio("sounds/snare.mp3");
         audio.play();
