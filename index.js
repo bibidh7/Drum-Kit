@@ -11,7 +11,7 @@ for(var i=0; i<document.querySelectorAll(".drum").length; i++){
 
 }
 
-//Detecting Keyboard press.
+//Detecting Keyboard press
 document.addEventListener("keypress", function(event){
 makeSound(event.key);
 
